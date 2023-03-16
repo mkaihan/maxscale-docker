@@ -80,3 +80,11 @@ mariadb -umaxuser -pmaxpwd -h 127.0.0.1 -P 4000
 Refrences:
 the repository was forked from Dr.Zak
 the Readme.md file was edited from Dr.Zak
+https://docs.docker.com/compose/install/
+https://mariadb.com/kb/en/mariadb-maxscale-25-simple-sharding-with-two-servers/
+
+https://github.com/Zohan/maxscale-docker
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04
+
+some of the project steps were helped by the TA, “Abdirizak”
+
