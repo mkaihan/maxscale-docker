@@ -31,19 +31,30 @@ Starting maxscale_maxscale_1 ... done
 
 ###
 Then we will edit the docker-compose.yml in maxscale directory:
+```
 nano docker-compose.yml
+```
 then we will edit the example.cnf file inside the maxscale.cnf.d file:
+```
 nano example.cnf
+```
  
 Now it is time to create our SQL shard files inside the master directory:
+```
 /maxscale/maxscale-docker/maxscale/sql/master#
+```
 Then we will nano the shard1.sql inside the directory and place the codes inside.
 The same process will be done for shard2.sql inside master2 directory.
 After creating this, we will stop all the containers and again run the following command to pull the new settings
+```
 Docker-compose up -d
+```
+
 After this we will list the servers with the following command:
+```
 docker-compose exec maxscale maxctrl list servers
-####
+```
+
 
 
 
