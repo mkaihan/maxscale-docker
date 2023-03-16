@@ -1,0 +1,242 @@
+1  sudo addusr kaihan sudo
+
+    2  sudo adusr kaihan sudo
+
+    3  sudo addusr kaihan 
+
+    4  sudo adduser kaihan
+
+    5  sudo adduser kaihan sudo 
+
+    6  exit
+
+    7  ls
+
+    8  apt install docker-compose
+
+    9  mkdir maxscale
+
+   10  cd macscale
+
+   11  cd maxscale
+
+   12  apt install git
+
+   13  git clone https://github.com/Zohan/maxscale-docker.git
+
+   14  ls
+
+   15  cd maxscale-docker/
+
+   16  ls
+
+   17  cd maxscale/
+
+   18  clear
+
+   19  ls
+
+   20  docker ps -a
+
+   21  docker rm 95f2db364f7c
+
+   22  docker ps -a
+
+   23  docker-compose down -v
+
+   24  docker-compose up -d
+
+   25  clear
+
+   26  docker ps -a
+
+   27  docker-compose exec maxscale maxctrl list services 
+
+   28  ls
+
+   29  nano docker-compose.yml 
+
+   30  cd maxscale.cnf.d
+
+   31  ls
+
+   32  nano example.cnf 
+
+   33  apt install mariadb -client
+
+   34  apt install mariadb-client
+
+   35  mariadb -umaxuser -pmaxpwd -h 127.0.0.1 -p 4000 
+
+   36  mariadb -umaxuser -pmaxpwd -h 127.0.0.1
+
+   37  cd..
+
+   38  cd ..
+
+   39  mariadb -umaxuser -pmaxpwd -h 127.0.0.1
+
+   40  ls
+
+   41  nano docker-compose.yml 
+
+   42  cd maxscale.cnf.d
+
+   43  ls
+
+   44  nano example.cnf 
+
+   45  cd ..
+
+   46  cd sql
+
+   47  ls
+
+   48  cd master
+
+   49  ls
+
+   50  nano shard1.sql
+
+   51  ls
+
+   52  nano users.sql 
+
+   53  cd ..
+
+   54  ls
+
+   55  cd slave
+
+   56  ls
+
+   57  nano replication.sql 
+
+   58  cd ..
+
+   59  ls
+
+   60  rm slave
+
+   61  rm slave -r
+
+   62  ls
+
+   63  mkdir master2
+
+   64  ls
+
+   65  cd master2
+
+   66  ls
+
+   67  nano shard2.sql
+
+   68  ls
+
+   69  nano users.sql
+
+   70  cd ..
+
+   71  ls
+
+   72  nano users.sql 
+
+   73  cd master2
+
+   74  nano users.sql
+
+   75  ls
+
+   76  cd ..
+
+   77  ls
+
+   78  nano maxscale.cnf
+
+   79  docker-compose down -v
+
+   80  docker ps -a
+
+   81  docker stop b8036f0529ec ccae610440e3 05533bfef96f
+
+   82  docker rm b8036f0529ec ccae610440e3 05533bfef96f
+
+   83  docker ps -a
+
+   84  docker-compose down -v
+
+   85  clear
+
+   86  docker-compose up -d
+
+   87  docker ps -a
+
+   88  docker stop 358de87ea915
+
+   89  docker start 358de87ea915
+
+   90  docker ps -a
+
+   91  docker-compose exec maxscale maxctrl list servers 
+
+   92  ls
+
+   93  cd sql
+
+   94  ls
+
+   95  cd master1
+
+   96  ls
+
+   97  cd ..
+
+   98  rm master1 -r
+
+   99  ls
+
+  100  mv master master1
+
+  101  ls
+
+  102  cd master1
+
+  103  ls
+
+  104  cd ..
+
+  105  docker ps -a
+
+  106  docker stop 420e9c4b4128 358de87ea915 2310b3629bd7
+
+  107  docker rm 420e9c4b4128 358de87ea915 2310b3629bd7
+
+  108  docker-compose down -v
+
+  109  docker-compose up -d
+
+  110  docker ps -a
+
+  111  docker stop 4cce3079a466 3d76471a6a95
+
+  112  docker start 4cce3079a466 3d76471a6a95
+
+  113  docker ps -a
+
+  114  docker-compose exec maxscale maxctrl list servers 
+
+  115  mariadb -umaxuser -pmaxpwd -h 127.0.0.1 -p 4000
+
+  116  mariadb -umaxuser -pmaxpwd -h 127.0.0.1
+
+  117  mariadb -umaxuser -pmaxpwd -h 127.0.0.1 -P 4000
+
+  118  ip -a
+
+  119  ip a
+
+  120  cd ..
+
+  121  history
+
