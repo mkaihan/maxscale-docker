@@ -1,8 +1,8 @@
-# This project is how to architecture backend servers and shard the Data with two servers using Maxscale server and
+This project is how to architecture backend servers and shard the Data with two servers using Maxscale server and
 show the client is accessing one server but technically is accessing two master MariaDB servers connecting 
 with maxscale.
 
-# To Start we will need an Ubuntu os and, install Docker, Docker-compose on Ubuntu with the following codes:
+ To Start we will need an Ubuntu os and, install Docker, Docker-compose on Ubuntu with the following codes:
 
 ```
 sudo apt update
