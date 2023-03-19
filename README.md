@@ -15,11 +15,11 @@ Sudo apt install docker-compose
 ```
 # Running
 Installing MariaDB for client access:
-
+```
 Sudo apt install MariaDB-client
 docker pull mariadb/maxscale:latest
 docker run -d --name mxs mariadb/maxscale:latest
-
+```
 
 ## The repository will be cloned from Zak’s github, with the following code:
 git clone https://github.com/Zohan/maxscale-docker.git
