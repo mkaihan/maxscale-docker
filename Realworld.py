@@ -1,4 +1,4 @@
-# Name: Mosawarkaihan (MK), Email: Mwafayee@student.rtc.edu, Date: 3/15/2023
+# Name: Mosawarkaihan (MK), Class:CNE370, Email: Mwafayee@student.rtc.edu, Date: 3/15/2023
 # the code will connect to the database in the Ubuntu shard databases and print the out put of zipcodes.
 # The last 10 rows of zipcodes_one
 # The first 10 rows of zipcodes_two
